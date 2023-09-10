@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stg1.css">
+    <title>Stage 1 webpage</title>
+</head>
+<body>
+    <h1 id="info">My information</h1>
+
+    <h3 data-testid="slackUserName" id="sun">Wendy</h3>
+
+    <div data-testid="myTrack", id="track">
+        <h4>Frontend track</h4>
+    </div>
+
+    <div data-testid="slackDisplayImage" id="displayImage">
+        <img src="slackdp.jpg" alt="Wendy's slack profile photo">
+    </div>
+
+    <div data-testid="currentdayOfTheWeek" class="dates" id="dayOfWeek">
+        <label>Current Day of the Week</label>
+        <input type="date" id="dayOfWeek">
+        <br>
+        <p>Sunday</p>
+    </div>
+
+    <div data-testid="currentUTCTime" class="dates" id="utcTime">
+        <p id="demo"></p>
+
+<script >
+const d = new Date(Date.UTC(2023, 08, 10));
+document.getElementById("demo").innerHTML = d;
+</script>
+    </div>
+
+    <div id="ps">
+        <p>P.S. I will love to add the backend track but i have no prior knowledge whatsoever</p>
+    </div>
+
+
+</body>
+</html>

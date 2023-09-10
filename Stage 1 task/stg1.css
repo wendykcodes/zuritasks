@@ -1,0 +1,52 @@
+* {
+    display: flexbox;
+}
+
+h1 {
+    text-indent: 50px;
+    padding: 10px;
+    font-size: 30px;
+    font-style: italic;
+    
+    
+}
+
+
+#sun  {
+    text-align: left;
+    text-indent: 120px;
+    color: blue;
+    font-size: 25px;
+}
+
+#track {
+    
+    text-indent: 100px;
+    font-size: 20px;
+}
+
+#displayImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: auto;
+}
+
+.dates {
+    font-size: 18px;
+    
+}
+
+#dayOfWeek {
+    margin-top: 80px;
+    font-size: 18px;
+
+}
+
+#ps {
+    padding-top: 40%;
+    font-size: 20px;
+    font-style: italic;
+}
+
