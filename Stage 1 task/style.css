@@ -27,6 +27,7 @@ h1 {
 
 #displayImage {
     position: absolute;
+    border: 5px solid pink;
     top: 0;
     right: 0;
     width: 50%;
