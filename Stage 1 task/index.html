@@ -31,6 +31,9 @@
         <script>
             const currentDate = new Date(); // Create a Date object representing the current date and time
 const currentTimeInMilliseconds = currentDate.getTime(); // Get the current time in milliseconds
+            // Update the content of the <p> element with the result
+    const datetimeElement = document.getElementById("datetimeInMilliseconds");
+    datetimeElement.textContent = `Current time in milliseconds: ${currentTimeInMilliseconds}`;
 console.log(currentTimeInMilliseconds);
         </script>
     </div>
