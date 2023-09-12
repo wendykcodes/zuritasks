@@ -29,19 +29,9 @@
     <div>
         <p data-testid="currentUTCTime" id="utcTime"></p>
         <script>
-            const currentTimeInMilliseconds = new Date();
-  
-    // Display the current time in UTC milliseconds on the webpage
-    const currentTimeDiv = document.getElementById('currentTimeInMilliseconds');
-  
-    currentTimeDiv.textContent = `${currentTimeInMilliseconds.getTime()}`;
-  }
-  
-  // Update the displayed date and time every second
-  setInterval(displayDateTime, 1000);
-  
-  // Initial call to displayDateTime fn
-  displayDateTime();
+            const currentDate = new Date(); // Create a Date object representing the current date and time
+const currentTimeInMilliseconds = currentDate.getTime(); // Get the current time in milliseconds
+console.log(currentTimeInMilliseconds);
         </script>
     </div>
 
