@@ -28,6 +28,21 @@
 
     <div>
         <p data-testid="currentUTCTime" id="utcTime"></p>
+        <script>
+            const currentTimeInMilliseconds = new Date();
+  
+    // Display the current time in UTC milliseconds on the webpage
+    const currentTimeDiv = document.getElementById('currentTimeInMilliseconds');
+  
+    currentTimeDiv.textContent = `${currentTimeInMilliseconds.getTime()}`;
+  }
+  
+  // Update the displayed date and time every second
+  setInterval(displayDateTime, 1000);
+  
+  // Initial call to displayDateTime fn
+  displayDateTime();
+        </script>
     </div>
 
     <div data-testid="githubURL" id="giturl">
